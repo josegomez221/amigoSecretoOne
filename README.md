@@ -1,4 +1,4 @@
-# amigoSecretoOne# Proyecto de Lista de Amigos
+# Proyecto de Lista de Amigos
 
 Este proyecto permite agregar nombres de amigos a una lista, mostrar los amigos registrados, y realizar un sorteo aleatorio para seleccionar un amigo. El proyecto está construido con HTML y JavaScript.
 
