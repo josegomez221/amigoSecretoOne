@@ -34,7 +34,7 @@ function mostrarAmigos() {
 
   function sortearAmigo() {
      //Limpia lista
-    limpiarLista()
+    //limpiarLista()
 
     if (amigos.length === 0) {
         alert('No hay amigos para sortear.');
