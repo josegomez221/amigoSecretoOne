@@ -5,11 +5,7 @@ function agregarAmigo() {
         alert("Debes ingresar el nombre del amigo");
     }else{
         amigos.push(amigo);
-        limpiarValor();
+        document.querySelector('#amigo').value = '';
     }
     
-}
-
-function limpiarValor() {
-    document.getElementById('amigo').value = '';
 }
