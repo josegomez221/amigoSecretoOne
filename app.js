@@ -6,5 +6,9 @@ function agregarAmigo() {
     }else{
         amigos.push(amigo);
     }
-    amigo.value = '';
+    limpiarValor();
+}
+
+function limpiarValor() {
+    document.getElementById('amigo').value = '';
 }
