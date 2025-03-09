@@ -38,6 +38,13 @@ function mostrarAmigos() {
   }
 
   function sortearAmigo() {
+
+    // Obtener el elemento de la lista donde se mostrarán los amigos
+    let lista = document.getElementById('listaAmigos');
+  
+    // Limpiar la lista existente
+    lista.innerHTML = '';
+    
         if (amigos.length === 0) {
         alert('No hay amigos para sortear.');
     } else {
