@@ -6,5 +6,5 @@ function agregarAmigo() {
     }else{
         amigos.push(amigo);
     }
-    document.getElementById('amigo').value = '';
+    amigo.value = '';
 }
