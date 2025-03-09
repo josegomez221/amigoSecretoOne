@@ -44,7 +44,8 @@ function mostrarAmigos() {
         //generar indice aleatorio de amigos
         let amigoAleatorio = Math.floor(Math.random()*amigos.length);
         let amigoSecreto = amigos[amigoAleatorio];
-
+         // Limpiar la lista existente
+        lista.innerHTML = '';
         document.getElementById('resultado').innerHTML = `El amigo sorteado es: ${amigoSecreto}`;
 
     }
