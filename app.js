@@ -1,4 +1,4 @@
-let listaAmigos = [];
+let amigos = [];
 
 function agregarAmigo() {
     //recibe valor de unput con id 'amigo'
@@ -8,7 +8,7 @@ function agregarAmigo() {
         alert("Debes ingresar el nombre del amigo");
     }else{
         //ingresa input a lista 'listaAmigos'
-        listaAmigos.push(amigo);
+        amigos.push(amigo);
 
         //limpia input
         document.getElementById('amigo').value = '';
