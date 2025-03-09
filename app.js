@@ -20,11 +20,11 @@ function agregarAmigo() {
 
 function mostrarAmigos() {
    
-        // Obtener el elemento de la lista donde se mostrarán los amigos
-        let lista = document.getElementById('listaAmigos');
+    // Obtener el elemento de la lista donde se mostrarán los amigos
+    let lista = document.getElementById('listaAmigos');
   
-        // Limpiar la lista existente
-        lista.innerHTML = '';
+    // Limpiar la lista existente
+    lista.innerHTML = '';
         
     // Iterar sobre el arreglo 'amigos'
     for (let nombre = 0; nombre < amigos.length; nombre++) {
@@ -39,12 +39,12 @@ function mostrarAmigos() {
 
   function sortearAmigo() {
 
-    // Obtener el elemento de la lista donde se mostrarán los amigos
-    let lista = document.getElementById('listaAmigos');
+   // Obtener el elemento de la lista donde se mostrarán los amigos
+   let lista = document.getElementById('listaAmigos');
   
-    // Limpiar la lista existente
-    lista.innerHTML = '';
-    
+   // Limpiar la lista existente
+   lista.innerHTML = '';
+
         if (amigos.length === 0) {
         alert('No hay amigos para sortear.');
     } else {
