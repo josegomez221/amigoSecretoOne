@@ -26,10 +26,10 @@ function mostrarAmigos() {
     lista.innerHTML = '';
   
     // Iterar sobre el arreglo 'amigos'
-    for (let i = 0; i < amigos.length; i++) {
+    for (let nombre = 0; nombre < amigos.length; nombre++) {
       // Crear un nuevo elemento <li> para cada amigo
       let li = document.createElement('li');
-      li.textContent = amigos[i]; // Asignar el nombre del amigo como texto del <li>
+      li.textContent = amigos[nombre]; // Asignar el nombre del amigo como texto del <li>
   
       // Agregar el <li> a la lista
       lista.appendChild(li);
