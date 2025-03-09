@@ -20,7 +20,12 @@ function agregarAmigo() {
 
 function mostrarAmigos() {
    
-    limpiarLista()
+        // Obtener el elemento de la lista donde se mostrarán los amigos
+        let lista = document.getElementById('listaAmigos');
+  
+        // Limpiar la lista existente
+        lista.innerHTML = '';
+        
     // Iterar sobre el arreglo 'amigos'
     for (let nombre = 0; nombre < amigos.length; nombre++) {
       // Crear un nuevo elemento <li> para cada amigo
@@ -33,10 +38,7 @@ function mostrarAmigos() {
   }
 
   function sortearAmigo() {
-     //Limpia lista
-    //limpiarLista()
-
-    if (amigos.length === 0) {
+        if (amigos.length === 0) {
         alert('No hay amigos para sortear.');
     } else {
         //generar indice aleatorio de amigos
@@ -46,12 +48,4 @@ function mostrarAmigos() {
         document.getElementById('resultado').innerHTML = `El amigo sorteado es: ${amigoSecreto}`;
 
     }
-  }
-
-  function limpiarLista() {
-    // Obtener el elemento de la lista donde se mostrarán los amigos
-    let lista = document.getElementById('listaAmigos');
-  
-    // Limpiar la lista existente
-    lista.innerHTML = '';
   }
